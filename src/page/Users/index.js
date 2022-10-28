@@ -62,7 +62,10 @@ function Users () {
 
     return(
         <div className="container">
-            {/* <p className="salutation">User</p> */}
+            <nav className="navcon">
+                <Link to="/error404">About</Link>
+                <Link to="/user">User</Link>
+            </nav>
 
             <div className="userCon">
                 {items.map(user => (
