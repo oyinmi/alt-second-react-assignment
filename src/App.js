@@ -10,7 +10,7 @@ function App() {
     <div className="main">
       <Routes>
         <Route path="/" element= {<Users />} />
-        <Route path="error404" element= {<Error404 />} />
+        <Route path="*" element= {<Error404 />} />
       </Routes>
     </div>
   );
