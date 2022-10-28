@@ -63,8 +63,8 @@ function Users () {
     return(
         <div className="container">
             <nav className="navcon">
-                <Link to="/error404">About</Link>
-                <Link to="/user">User</Link>
+                <Link to="error404">About</Link>
+                <Link to="/">User</Link>
             </nav>
 
             <div className="userCon">
