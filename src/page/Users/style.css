@@ -33,3 +33,9 @@
     padding-top: 5em;
 }
 
+.navcon {
+    display: flex;
+    margin-bottom: 5em;
+    justify-content: flex-end;
+}
+
